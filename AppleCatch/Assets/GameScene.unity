@@ -150,6 +150,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   applePrefab: {fileID: 1052802901727942, guid: decf6a615a2177f4892de5e4139d48dd,
     type: 2}
+  igaguriPrefab: {fileID: 1045076101786576, guid: 0b29f8e3472c9d141998b51b993ecb0f,
+    type: 2}
   bombPrefab: {fileID: 1277862475830518, guid: d11c2bee00a71c4479a8d67688ca1e1a, type: 2}
 --- !u!1 &140309084
 GameObject:
@@ -571,6 +573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   appleSE: {fileID: 8300000, guid: c419ef5e19ee9f2429f2b2232ff8b4f0, type: 3}
+  igaguriSE: {fileID: 8300000, guid: c419ef5e19ee9f2429f2b2232ff8b4f0, type: 3}
   bombSE: {fileID: 8300000, guid: c83f198374a634b4b89201d6b36d36e6, type: 3}
 --- !u!65 &1393331486
 BoxCollider:

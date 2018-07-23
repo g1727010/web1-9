@@ -5,6 +5,7 @@ using UnityEngine;
 public class BasketController : MonoBehaviour {
 
     public AudioClip appleSE;
+    public AudioClip igaguriSE;
     public AudioClip bombSE;
     AudioSource aud;
     GameObject director;
@@ -21,6 +22,12 @@ public class BasketController : MonoBehaviour {
         {
             this.director.GetComponent<GameDirector>().GetApple();
             this.aud.PlayOneShot(this.appleSE);
+        }
+
+        else if(other.gameObject.tag == "igaguri")
+        {
+            this.director.GetComponent<GameDirector>().GetIgaguri();
+            this.aud.PlayOneShot(this.igaguriSE);
         }
 
         else
